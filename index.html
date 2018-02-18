@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Random Generator</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div id="container">
+	<div id="head">
+		<h1>Student Random Generator</h1>
+		<!-- <h1>Computer chooses this student :  -->
+		<span id="choseStu">Who will be next?</span></h1><br>
+		<button id="genBtn">GENERATE STUDENT</button>
+	</div>
+
+	<div id="setList">
+		<p id="setHead">Setting</p>
+		<ul>
+			<li id="addForm">ADD STUDENT</li>
+			<li id="about">ABOUT ME</li>
+		</ul>
+	</div>
+
+	<div id="add">
+		<!-- <h2>Add new student</h2> -->
+		<!-- <label style="color: white">Roll No.</label>
+		<input type="number" id="roll"> -->
+		<select id="gender">
+			<option value="Ashin">Ashin</option>
+			<option value="Ma">Ma</option>
+			<option value="Mr">Mr</option>
+			<option value="Mrs">Mrs</option>
+		</select>
+		<input id="input" type="text">
+		<button id="addBtn">ADD</button>
+	</div>
+
+	<div id="aboutMe">
+		<div id="aboutText">
+			<h1>I am Ashin Indobhasa</h1>
+			<p id="twi">Twitter <a href="https://www.twitter.com/Indo_Padigon" target="_blank">@indobhasa</a></p>
+			<p>Web App Versino 1.0.0 <br>
+				Copyright @ 2018 <br>
+				 built by the technology of : </p>
+			<ul id="techList">
+			 	<li>HTML</li>
+			 	<li>CSS</li>
+			 	<li>JAVASCRIPT</li>
+			 	<li>JQUERY</li>
+			</ul> 
+		</div>
+	</div>
+
+	<div class="list startList">
+		<h2>Lists of Student  <span id="togList">|||</span></h2>
+		<ol id="liStu"></ol>
+	</div>
+	
+	<div class="list finList">
+		<h2>Finished Students <span id="togList">|||</span></h2>
+		<button id="move">Move Back</button>
+		<ol id="finStu"></ol>
+	</div>
+
+</div>
+
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
