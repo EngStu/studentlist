@@ -1,6 +1,6 @@
 var listOfStu = [{roll: 01,	gender: "Ashin", name: "Kosalla"},
 								{roll: 02, gender: "Ma", name: "Sutesi"},
-								{roll: 03, gender: "Mr", name: "Aung Aung"},
+								{roll: 03, gender: "Mr", name: "ေအာင္ေအာင္"},
 								{roll: 04, gender: "Mrs",	name: "Aye Aye"}];
 
 var finStu = []; /*[{roll: 05, gender: "Ashin",	name: "Indaka"},
